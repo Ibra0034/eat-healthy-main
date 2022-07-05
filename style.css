@@ -6,11 +6,19 @@ h1 {
     font-size: 50px
 }
 
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
+}
+
 .orange-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
 }
 
@@ -33,5 +41,49 @@ section {
 .middle-banner {
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.my-recipe {
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+}
+
+.box-shadow {
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 150px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    box-shadow: 10px 10px 20px gray;
+}
+
+.last-box-shadow {
+    display: flex;
+    text-align: center;
+    height: 250px;
+    width: 2000px;
+    margin-left: 200px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px gray;
+}
+
+.social {
+    padding-left: 350px;
+}
+
+.footer-color {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: gray;
+    background-color: black;
+    padding-bottom: 20px;
+}
+
+.red-color {
+    color: brown;
 }
